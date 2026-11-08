@@ -1,14 +1,4 @@
-"""
-PHANTOM — Free Fire MITM Pro
-Single file, zero display required — runs in Codespaces / headless / SSH
-Language : Python 3.11+
-Deps     : mitmproxy>=10.0  flask>=3.0
-Install  : pip install mitmproxy flask
 
-Usage    : python phantom_single.py [--proxy-port 8080] [--web-port 8888]
-           then open http://localhost:8888 to toggle features
-           set iPhone HTTP proxy → <your machine IP>:8080
-"""
 
 # ─── stdlib ──────────────────────────────────────────────────────────────────
 import argparse
